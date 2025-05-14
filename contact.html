@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - Kelas Bahasa Korea Dasar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="/api/placeholder/80/80" alt="Logo Korea Class" class="logo-img" />
+        <h1>KELAS BAHASA KOREA DASAR</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+          <li><a href="features.html"><i class="fas fa-star"></i> Fitur</a></li>
+          <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-banner">
+    <div class="page-banner-content">
+      <h2>Hubungi Kami</h2>
+      <p>Ada pertanyaan? Jangan ragu untuk menghubungi kami!</p>
+    </div>
+  </div>
+
+  <main>
+    <section class="contact-section">
+      <div class="section-heading">
+        <i class="fas fa-envelope heading-icon"></i>
+        <h2>Formulir Kontak</h2>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Alamat</h3>
+              <p>Jl. Korea Selatan No. 123<br>Jakarta Selatan, 12345</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Telepon</h3>
+              <p>+62 812-3456-7890</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>info@kelaskorea.id</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Jam Operasional</h3>
+              <p>Senin - Jumat: 09:00 - 17:00<br>Sabtu: 09:00 - 14:00</p>
+            </div>
+          </div>
+          
+          <div class="social-contact">
+            <h3>Ikuti Kami</h3>
+            <div class="social-contact-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required />
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Masukkan alamat email Anda" required />
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Nomor Telepon</label>
+              <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" />
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subjek</label>
+              <select id="subject" name="subject">
+                <option value="general">Pertanyaan Umum</option>
+                <option value="registration">Pendaftaran Kelas</option>
+                <option value="partnership">Kerja Sama</option>
+                <option value="other">Lainnya</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+            </div>
+            
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="newsletter" name="newsletter" />
+              <label for="newsletter">Saya ingin menerima informasi dan penawaran terbaru melalui email</label>
+            </div>
+            
+            <button type="submit" class="submit-button">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="section-heading">
+        <i class="fas fa-question-circle heading-icon"></i>
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Bagaimana cara mendaftar kelas?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Anda dapat mendaftar kelas dengan mengisi formulir pendaftaran online di halaman Fitur atau menghubungi kami melalui formulir kontak di halaman ini. Tim kami akan segera menghubungi Anda dengan informasi lebih lanjut.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Berapa lama durasi kelas?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Durasi kelas bervariasi tergantung level. Kelas Dasar berlangsung selama 8 minggu dengan 2 pertemuan per minggu (total 16 pertemuan), sedangkan Kelas Menengah berlangsung selama 10 minggu dengan 2 pertemuan per minggu (total 20 pertemuan).</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Apakah ada kelas percobaan gratis?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Ya, kami menyediakan kelas percobaan gratis setiap bulan. Silakan hubungi kami untuk mendapatkan informasi jadwal kelas percobaan berikutnya.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Apakah ada sertifikat setelah menyelesaikan kursus?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Ya, setiap siswa yang berhasil menyelesaikan kursus dengan nilai minimum 70% akan mendapatkan sertifikat penyelesaian yang dapat digunakan untuk keperluan akademis atau profesional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="section-heading">
+        <i class="fas fa-map-marked-alt heading-icon"></i>
+        <h2>Lokasi Kami</h2>
+      </div>
+      
+      <div class="map-container">
+        <img src="/api/placeholder/1200/400" alt="Peta Lokasi" class="map-image" />
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Siap Untuk Memulai Perjalanan Bahasa Korea Anda?</h2>
+        <p>Gabung bersama ratusan siswa yang telah sukses belajar bahasa Korea di kelas kami</p>
+        <a href="features.html" class="cta-button primary large">Lihat Program Kelas <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="/api/placeholder/60/60" alt="Logo Korea Class" />
+        <h3>Kelas Bahasa Korea Dasar</h3>
+      </div>
+      <div class="footer-links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="features.html">Fitur</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Ikuti Kami</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <h4>Hubungi Kami</h4>
+        <p><i class="fas fa-envelope"></i> info@kelaskorea.id</p>
+        <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kelas Bahasa Korea Dasar. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

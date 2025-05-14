@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beranda - Kelas Bahasa Korea Dasar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay" id="popup-overlay"></div>
+  <div class="popup" id="popup-promo">
+    <i class="fas fa-gift popup-icon"></i>
+    <h3>Promo Spesial!</h3>
+    <p>Dapatkan diskon 10% untuk 10 pendaftar pertama!</p>
+    <button onclick="tutupPopup()">Tutup</button>
+  </div>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="/api/placeholder/80/80" alt="Logo Korea Class" class="logo-img" />
+        <h1>KELAS BAHASA KOREA DASAR</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active"><i class="fas fa-home"></i> Beranda</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+          <li><a href="features.html"><i class="fas fa-star"></i> Fitur</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-content">
+      <h2>안녕하세요! <span class="highlight">Annyeong haseyo!</span></h2>
+      <h3>Belajar Bahasa Korea Jadi Lebih Mudah dan Menyenangkan</h3>
+      <p>Pelajari Bahasa Korea mulai dari dasar, dari Hangul hingga percakapan sehari-hari, 
+      dengan metode pembelajaran interaktif yang efektif.</p>
+      <div class="hero-buttons">
+        <a href="features.html" class="cta-button primary"><i class="fas fa-book-open"></i> Mulai Belajar</a>
+        <a href="#kelas" class="cta-button secondary"><i class="fas fa-info-circle"></i> Info Kelas</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="/api/placeholder/500/400" alt="Korean Language Learning" />
+    </div>
+  </div>
+
+  <main>
+    <section class="highlights">
+      <div class="section-heading">
+        <i class="fas fa-star heading-icon"></i>
+        <h2>Keunggulan Kami</h2>
+      </div>
+      <div class="highlights-container">
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Belajar Fleksibel Kapan Saja</h3>
+          <p>Kamu bisa belajar bahasa Korea tanpa terikat waktu! Akses materi di mana saja dan kapan saja sesuai dengan jadwal kamu.</p>
+        </div>
+        
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Materi Lengkap & Terstruktur</h3>
+          <p>Dari dasar hingga percakapan sehari-hari, semua disusun step-by-step agar mudah dipahami, cocok untuk pemula.</p>
+        </div>
+        
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h3>Bahasa Ringan & Mudah Difahami</h3>
+          <p>Setiap penjelasan dibuat sederhana dan jelas, jadi kamu nggak perlu khawatir bingung saat belajar sendiri.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kelas" class="courses">
+      <div class="section-heading">
+        <i class="fas fa-chalkboard-teacher heading-icon"></i>
+        <h2>Program Kelas</h2>
+      </div>
+      <div class="courses-container">
+        <div class="course-card">
+          <div class="course-image">
+            <img src="/api/placeholder/350/200" alt="Basic Korean Class" />
+            <div class="course-badge">Populer</div>
+          </div>
+          <div class="course-content">
+            <h3>Kelas Dasar</h3>
+            <div class="course-details">
+              <span><i class="far fa-clock"></i> 8 Minggu</span>
+              <span><i class="fas fa-user-graduate"></i> Pemula</span>
+            </div>
+            <p>Pelajari dasar-dasar bahasa Korea, mulai dari Hangul hingga percakapan singkat sehari-hari.</p>
+            <div class="course-price">
+              <span class="normal-price">Rp 120.000</span>
+              <span class="price-discount">Rp 108.000</span>
+            </div>
+            <a href="contact.html" class="course-button">Daftar Sekarang</a>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <div class="course-image">
+            <img src="/api/placeholder/350/200" alt="Intermediate Korean Class" />
+          </div>
+          <div class="course-content">
+            <h3>Kelas Menengah</h3>
+            <div class="course-details">
+              <span><i class="far fa-clock"></i> 10 Minggu</span>
+              <span><i class="fas fa-user-graduate"></i> Menengah</span>
+            </div>
+            <p>Tingkatkan kemampuan berbahasa Korea Anda dengan tata bahasa lanjutan dan kosakata yang lebih kaya.</p>
+            <div class="course-price">
+              <span class="normal-price">Rp 135.000</span>
+            </div>
+            <a href="contact.html" class="course-button">Daftar Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="section-heading">
+        <i class="fas fa-quote-left heading-icon"></i>
+        <h2>Testimoni Siswa</h2>
+      </div>
+      <div class="testimonial-carousel">
+        <div class="testimonial-card">
+          <img src="/api/placeholder/60/60" alt="Student" class="testimonial-img" />
+          <div class="testimonial-content">
+            <p>"Kelas ini sangat membantu saya memahami dasar-dasar bahasa Korea dengan metode yang menyenangkan!"</p>
+            <h4>Budi Santoso</h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <img src="/api/placeholder/60/60" alt="Student" class="testimonial-img" />
+          <div class="testimonial-content">
+            <p>"Saya bisa berbicara bahasa Korea dasar hanya dalam 3 bulan berkat kelas ini. Sangat direkomendasikan!"</p>
+            <h4>Sarah Wijaya</h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Mulai Petualangan Belajar Bahasa Korea Anda Sekarang!</h2>
+        <p>Gabung bersama ratusan siswa yang telah sukses belajar bahasa Korea di kelas kami</p>
+        <a href="contact.html" class="cta-button primary large">Daftar Sekarang <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="/api/placeholder/60/60" alt="Logo Korea Class" />
+        <h3>Kelas Bahasa Korea Dasar</h3>
+      </div>
+      <div class="footer-links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="features.html">Fitur</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Ikuti Kami</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <h4>Hubungi Kami</h4>
+        <p><i class="fas fa-envelope"></i> info@kelaskorea.id</p>
+        <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kelas Bahasa Korea Dasar. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
