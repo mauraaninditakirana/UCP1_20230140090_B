@@ -261,54 +261,6 @@ main {
   transform: translateX(5px);
 }
 
-/* Testimonials Section */
-.testimonials {
-  background-color: #f9f5ff;
-  padding: 3rem 2rem;
-  border-radius: 20px;
-  margin-top: 4rem;
-}
-
-.testimonial-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-
-.testimonial-card {
-  background-color: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  display: flex;
-  gap: 1rem;
-}
-
-.testimonial-img {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  border: 3px solid #f3e0ff;
-}
-
-.testimonial-content p {
-  font-style: italic;
-  color: #555;
-  margin-top: 0;
-}
-
-.testimonial-content h4 {
-  color: #6a4c93;
-  margin-bottom: 0.3rem;
-  margin-top: 0.8rem;
-}
-
-.stars {
-  color: #ffb100;
-  font-size: 0.9rem;
-}
-
 /* Footer */
 footer {
   background-color: #4a3262;
