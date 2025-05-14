@@ -288,56 +288,6 @@ main {
   margin: 0;
 }
 
-/* Team Section */
-.team-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.team-card {
-  background-color: white;
-  border-radius: 15px;
-  padding: 2rem;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease;
-}
-
-.team-card:hover {
-  transform: translateY(-5px);
-}
-
-.team-image {
-  margin-bottom: 1.5rem;
-}
-
-.team-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #f3e0ff;
-}
-
-.team-card h3 {
-  color: #6a4c93;
-  margin: 0;
-  margin-bottom: 0.5rem;
-}
-
-.team-title {
-  color: #ff6b6b;
-  font-weight: 600;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-
-.team-desc {
-  color: #5a5a5a;
-  margin: 0;
-}
-
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, #6a4c93, #5d4282);
